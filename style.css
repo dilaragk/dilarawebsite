@@ -1,0 +1,165 @@
+.menupage {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+ul.menupage li {
+    display: inline-block;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+ul.menupage li a {
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #dea1b7;
+    color: #333;
+    font-family: "Lucida Handwriting";
+}
+
+ul.menupage li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoname {
+    display: flex;
+    height: 150px;
+    width: 200px;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 70px;
+    font-family: "Lucida Handwriting";
+    white-space: nowrap;
+}
+
+body {
+    background-color: #efe1ee;
+}
+
+.about {
+    margin-left: 25%;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: row;
+    margin-top: 40px;
+    border-radius: 150px;
+}
+
+.aboutheading {
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+    text-decoration: underline;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.aboutparagraph {
+    white-space: wrap;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+    width: 400px;
+    font-family: "Garamond";
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 27%;
+}
+
+.section1 {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section2 {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.contactform {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Lucida Handwriting";
+}
+
+.tymessage {
+    margin-left: 27%;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 150px;
+    display: flex;
+}
+
+.ty {
+    font-family: "Lucida Handwriting";
+    font-size: 40px;
+    font-style: bold;
+    white-space: nowrap;
+    display: flex;
+}
+
+.tyfor {
+    white-space: nowrap;
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.contactinfo {
+    display: flex;
+    white-space: wrap;
+    flex-direction: column;
+    margin-left: 46%;
+    font-weight: bold;
+    border: 10px solid #dea1b7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contactcontainer {
+    display: flex;
+    margin-right: 20%;
+
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    margin-left: 28%;
+    border: 10px solid #dea1b7;
+    padding: 20px
+}
+
+.recipes img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
